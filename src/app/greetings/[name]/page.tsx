@@ -4,5 +4,5 @@ type props = {
   };
 };
 export default function GreetingName({ params }: props) {
-  return <h1>hi nice to meet you {params.name}</h1>;
+  return <h1>hi nice to meet you madam {params.name}</h1>;
 }
